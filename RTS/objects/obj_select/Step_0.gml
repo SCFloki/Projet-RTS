@@ -1,18 +1,18 @@
 //Controls
 scr_inputs();
 
-if (rightPressed)
+if (leftPressed)
 {
 	selectX = mouse_x;
 	selectY = mouse_y;
 }
 
-if (rightClick)
+if (leftClick)
 {
 	selectSquare = true;
 }
 
-if (rightReleased)
+if (leftReleased)
 {
 	selectSquare = false;
 }

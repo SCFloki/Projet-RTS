@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_building",
     "eventList": [
-        
+        {
+            "id": "fcbc4113-8e57-4ad5-ab0f-d74b940ef939",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3d457919-5c7b-41dc-aca7-2f3c08e5c4d5"
+        },
+        {
+            "id": "cc34ceef-3e8c-44bd-9419-69b333863c29",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3d457919-5c7b-41dc-aca7-2f3c08e5c4d5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "b0041530-db36-42f0-86b3-822481c55285",
     "visible": true
 }

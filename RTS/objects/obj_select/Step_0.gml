@@ -15,4 +15,15 @@ if (leftClick)
 if (leftReleased)
 {
 	selectSquare = false;
+	selectEndX = mouse_x;
+	selectEndY = mouse_y;
+}
+
+if ( (Pobj_selectionnable.x >= selectX) && (Pobj_selectionnable.x <= selectEndX) ) && (Pobj_selectionnable.y >= selectY) && (Pobj_selectionnable.y <= selectEndY)
+{
+	Pobj_selectionnable.selectionner = true;
+}
+else 
+{
+	Pobj_selectionnable.selectionner = false;
 }

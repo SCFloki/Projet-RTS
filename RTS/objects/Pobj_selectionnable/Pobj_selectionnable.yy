@@ -1,14 +1,14 @@
 {
-    "id": "a96e6272-be11-499f-a17e-7e58639be0a0",
+    "id": "2e931b13-d751-410c-943c-fe2b894e7462",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_soldier",
+    "name": "Pobj_selectionnable",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2e931b13-d751-410c-943c-fe2b894e7462",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "143d1e6f-b135-456d-849a-6fff98abab45",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

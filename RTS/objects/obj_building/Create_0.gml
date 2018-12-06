@@ -1,2 +1,5 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+cooldown = 0;
+spawn_time = 180;
+test = 42;
+trigger_spawn_time = false;
+//display_spawn_time = false;

@@ -1,14 +1,14 @@
 {
-    "id": "f32c9b23-2c25-4e23-a586-6431126afc3c",
+    "id": "70d63397-49c6-42df-9df5-e5f9256dffd3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_worker",
+    "name": "HUD",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2539a69c-f01e-4acb-9497-d8098d889f77",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -31,3 +31,4 @@ if (trigger_spawn_time = true)
 	{
 		spawn_time--;
 	}
+	

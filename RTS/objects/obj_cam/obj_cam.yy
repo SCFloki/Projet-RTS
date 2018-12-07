@@ -1,28 +1,28 @@
 {
-    "id": "70d63397-49c6-42df-9df5-e5f9256dffd3",
+    "id": "3958b16f-c12c-4405-92ae-da24e2bd9537",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "HUD",
+    "name": "obj_cam",
     "eventList": [
         {
-            "id": "0837641a-acf6-49dd-bf76-c367ba2dd60f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "70d63397-49c6-42df-9df5-e5f9256dffd3"
-        },
-        {
-            "id": "1e74cd3c-359e-44e4-b7a7-c6e031d9258a",
+            "id": "8e727536-beb7-47d3-8bdb-bf559100ac8f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "70d63397-49c6-42df-9df5-e5f9256dffd3"
+            "m_owner": "3958b16f-c12c-4405-92ae-da24e2bd9537"
+        },
+        {
+            "id": "5db9a867-1fc2-416a-b4f8-1a5796c3a294",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3958b16f-c12c-4405-92ae-da24e2bd9537"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

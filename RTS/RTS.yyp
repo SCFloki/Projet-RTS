@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
+            "Value": {
+                "id": "8a0a6818-d4da-4162-9822-a09f4e62dc80",
+                "resourcePath": "objects\\Pobj_selectionnable\\Pobj_selectionnable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "649125c2-c924-4c4c-9ba9-b073916b5bcb",
             "Value": {
                 "id": "d04169f4-7495-4ebd-a426-431643f7cf5a",

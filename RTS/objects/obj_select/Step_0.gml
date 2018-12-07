@@ -19,7 +19,7 @@ if (leftReleased)
 	selectEndY = mouse_y;
 }
 
-if ( (Pobj_selectionnable.x >= selectX) && (Pobj_selectionnable.x <= selectEndX) ) && (Pobj_selectionnable.y >= selectY) && (Pobj_selectionnable.y <= selectEndY)
+if place_meeting(x, y, Pobj_selectionnable)
 {
 	Pobj_selectionnable.selectionner = true;
 }

@@ -1,7 +1,4 @@
-if (selected = true) {
-	draw_sprite(spr_buildg_selected, 0, obj_building.x, obj_building.y);
-	draw_text(obj_building.x, obj_building.y+42, cooldown/60);
-}
+event_inherited();
 
 draw_self();
 if (display_spawn_time = true)

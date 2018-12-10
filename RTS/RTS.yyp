@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "166ac213-00f3-4ec7-a78f-538e5f3ae1b4",
+            "Value": {
+                "id": "db05ddcb-3566-4a6d-80f4-f4d9a150035c",
+                "resourcePath": "objects\\Pobj_buildSelection\\Pobj_buildSelection.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19393337-17b2-4d31-85f6-01de054090b3",
             "Value": {
                 "id": "31ef93dc-64d9-4114-86a3-472bd5b1d72f",
@@ -76,6 +84,14 @@
                 "id": "5fb582a1-0a2a-44db-b067-6f75b43c0ad1",
                 "resourcePath": "views\\21c681b4-ac25-42af-b4b6-30c43c0b40ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23a40883-6916-41bf-8285-5f345d1cca43",
+            "Value": {
+                "id": "64cdf0e3-479e-4fda-9957-a3dffe7a5ce0",
+                "resourcePath": "scripts\\scr_spawnUnit\\scr_spawnUnit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -154,7 +170,7 @@
             "Key": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
             "Value": {
                 "id": "8a0a6818-d4da-4162-9822-a09f4e62dc80",
-                "resourcePath": "objects\\Pobj_selectionnable\\Pobj_selectionnable.yy",
+                "resourcePath": "objects\\Pobj_unitSelection\\Pobj_unitSelection.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "be6dcc4a-6559-48c7-b969-f284e1ee4903",
+            "Value": {
+                "id": "abc6ea0e-2d97-4165-89aa-e03c934e3dfc",
+                "resourcePath": "scripts\\scr_unitInputs\\scr_unitInputs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c233e09f-df63-4f83-b604-79107c4519b9",
             "Value": {
                 "id": "3c22938e-9a4c-4307-8e31-e8557b04bb20",
@@ -377,7 +401,9 @@
     ],
     "script_order": [
         "6cedbe53-89cd-47ae-89be-46c231e3fd12",
-        "e7e94099-87d8-4266-9053-7149efb58945"
+        "e7e94099-87d8-4266-9053-7149efb58945",
+        "23a40883-6916-41bf-8285-5f345d1cca43",
+        "be6dcc4a-6559-48c7-b969-f284e1ee4903"
     ],
     "tutorial": ""
 }

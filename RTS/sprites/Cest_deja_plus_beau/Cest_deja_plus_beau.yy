@@ -2,7 +2,7 @@
     "id": "44889d8f-c06d-44b8-a66f-98223b9b9b06",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "C_est_d_j__plus_beau",
+    "name": "Cest_deja_plus_beau",
     "For3D": false,
     "HTile": false,
     "VTile": false,

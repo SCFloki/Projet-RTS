@@ -15,9 +15,8 @@ var brtl = (x<px && x>rx && y<py && y>ry);
 var trbl = (x<px && x>rx && y>py && y<ry);
 
 //Selection
-if (tlbr || brtl || bltr || trbl) {
+if (tlbr || brtl || bltr || trbl) || (place_meeting(x, y, obj_mouse)){
 	selected = true;
 } else {
 	selected = false;
 }
-

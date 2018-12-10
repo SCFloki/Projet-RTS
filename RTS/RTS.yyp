@@ -122,7 +122,7 @@
             "Key": "44889d8f-c06d-44b8-a66f-98223b9b9b06",
             "Value": {
                 "id": "114cc9e6-9051-46ae-aed6-c8b26202f35c",
-                "resourcePath": "sprites\\C_est_d_j__plus_beau\\C_est_d_j__plus_beau.yy",
+                "resourcePath": "sprites\\Cest_deja_plus_beau\\Cest_deja_plus_beau.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -235,6 +235,14 @@
             "Value": {
                 "id": "283e9b24-3f89-4c1e-9a96-76ad29240454",
                 "resourcePath": "sprites\\spr_barre_progression\\spr_barre_progression.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "91f8848a-d769-4497-87ed-aa0c94b02371",
+            "Value": {
+                "id": "956c1a31-2de3-4b4f-9302-90a54f5b42c7",
+                "resourcePath": "sprites\\spr_buildg_selected\\spr_buildg_selected.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -14,7 +14,7 @@ var bltr = (x>px && x<rx && y<py && y>ry);
 var brtl = (x<px && x>rx && y<py && y>ry);
 var trbl = (x<px && x>rx && y>py && y<ry);
 
-//Selection
+//Selection	
 if (tlbr || brtl || bltr || trbl) {
 	selected = true;
 } else {

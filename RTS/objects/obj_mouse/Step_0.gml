@@ -3,6 +3,8 @@ x = mouse_x;
 y = mouse_y;
 scr_inputs();
 
-if (rightClick) {
+if (rightPressed) {
+	target_x = x;
+	target_y = y;
 	instance_create_layer(x, y, "Instances", obj_target);
 }

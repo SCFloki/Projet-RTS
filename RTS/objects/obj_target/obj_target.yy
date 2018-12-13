@@ -1,23 +1,14 @@
 {
-    "id": "a96e6272-be11-499f-a17e-7e58639be0a0",
+    "id": "990f519c-b3d9-47e5-8591-675c293d07bc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_soldier",
+    "name": "obj_target",
     "eventList": [
-        {
-            "id": "c652738d-8151-49c0-ad11-981003264bb8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "a96e6272-be11-499f-a17e-7e58639be0a0"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "143d1e6f-b135-456d-849a-6fff98abab45",
+    "spriteId": "6fc19ad6-aecb-4efc-9e92-1832e326d366",
     "visible": true
 }

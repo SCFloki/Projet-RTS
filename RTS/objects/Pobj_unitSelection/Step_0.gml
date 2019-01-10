@@ -1,20 +1,16 @@
-
-if (selected) && rightPressed {
-	
-	unitMove = true;
-	
-	target_x = mouse_x;
-	target_y = mouse_y;
+scr_inputs();
+if (this.selected && rightPressed) {
+	this.unitMove = true;
+	this.target_x = mouse_x;
+	this.target_y = mouse_y;
 }
 
-	if (unitMove == true) {
-	//motion_add(point_direction(x, y, target_x, target_y), moveSpd);
-	move_towards_point(target_x, target_y, 3);
+	if (this.unitMove == true) {
+	move_towards_point(this.target_x, this.target_y, 3);
+	if (speed > 3) speed = 3;
 	
-	if (speed > moveSpd) speed = moveSpd;
-	
-	if (x = target_x && y = target_y) {
-		unitMove = false;
-		speed = 0;
+	if (this.x == this.target_x && this.y == this.target_y) {
+		move_towards_point(this.x, this.y, 0);
+		this.unitMove = false;
 	}
 }

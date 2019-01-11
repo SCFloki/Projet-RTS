@@ -15,6 +15,6 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 draw_text(10, 20, this.unitMove);
 
-draw_text(10, 40, this.speed);
+draw_text(10, 40, instance_exists(obj_target));
 
 draw_self();

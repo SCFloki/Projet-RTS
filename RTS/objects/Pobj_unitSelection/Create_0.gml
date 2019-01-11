@@ -1,7 +1,5 @@
 selected = false;
 unitMove = false;
-
-target_x = 0;
-target_y = 0;
+has_a_target = false;
 
 this = instance_nearest(x, y, Pobj_unitSelection);

@@ -1,16 +1,20 @@
 scr_inputs();
 if (this.selected && rightPressed) {
 	this.unitMove = true;
-	this.target_x = mouse_x;
-	this.target_y = mouse_y;
+	instance_create_depth(mouse_x, mouse_y, 0, obj_target)
+	if has_a_target = false {
+	this_target = instance_nearest(x, y, obj_target)
+	has_a_target = true;
+	}
 }
 
 	if (this.unitMove == true) {
-	move_towards_point(this.target_x, this.target_y, 3);
-	if (speed > 3) speed = 3;
+	move_towards_point(this_target.x, this_target.y, 3);
 	
-	if (this.x == this.target_x && this.y == this.target_y) {
-		move_towards_point(this.x, this.y, 0);
+	if (this.x == this_target.x && this.y == this_target.y) {
+		instance_destroy(this_target);
+		has_a_target = false;
+		this.speed = 0;
 		this.unitMove = false;
 	}
 }

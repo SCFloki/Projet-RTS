@@ -1,42 +1,46 @@
 scr_inputs();
 
 //Create movement target
-if (selected && rightPressed)
+if (this.selected && rightPressed && !instance_exists(obj_target))
 {
-	unit_move = true;
-	order_in_progress = true;
-	one_order = true;
+	this.unit_move = true;
 	
-	first_target_hor = mouse_x;
-	first_target_ver = mouse_y;
+	//Set the different state of the order
+	this.order_in_progress = true;
+	this.no_order = false;
+	this.one_order = true;
 	
-	var first_order_hor = mouse_x;
-	var first_order_ver = mouse_y;
+	//Coordinated of the first order
+	this.first_target_hor = mouse_x;
+	this.first_target_ver = mouse_y;
 	
+	//Create movement target
 	instance_create_depth(first_order_hor, first_order_ver, 0, obj_target);
 	
 }
 
-if (selected && one_order && rightPressed)
+//Go to the movement target
+if (instance_exists(obj_target) && this.order_in_progress)
 {
-	one_order = false;
-	more_order = true;
-}
-
-//Go to the movement target and adding the state order_in_progress 
-if (instance_exists(obj_target) && order_in_progress)
-{
-    if(!this.unitMove)
+    if(this.unit_move)
     {
         this.direction = point_direction(this.x, this.y, obj_target.x, obj_target.y);
         this.speed = 2;
-        this.unitMove = true;
+        this.unit_move = true;
     }
 }
 
+//Stop movement
 if (place_meeting(this.x, this.y, obj_target)) 
 {
     this.speed = 0;
-    this.unitMove = false;
+    this.unit_move = false;
 	instance_destroy(obj_target);
+}
+
+//Situation if more than one order (Shift+Click)
+if (this.selected && this.one_order && rightPressed)
+{
+	this.one_order = false;
+	this.more_order = true;
 }

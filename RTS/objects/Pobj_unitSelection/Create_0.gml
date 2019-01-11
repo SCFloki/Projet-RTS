@@ -1,7 +1,9 @@
 selected = false;
 order_in_progress = false;
-unitMove = false;
+unit_move = false;
 has_a_target = false;
+
+no_order = true;
 one_order = false;
 more_order = false;
 

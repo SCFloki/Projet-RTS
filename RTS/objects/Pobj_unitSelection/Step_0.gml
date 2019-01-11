@@ -1,7 +1,7 @@
 scr_inputs();
 
 //Create movement target
-if (this.selected && rightPressed && !instance_exists(obj_target))
+if (this.selected && rightPressed)
 {
 	this.unit_move = true;
 	
@@ -15,8 +15,8 @@ if (this.selected && rightPressed && !instance_exists(obj_target))
 	this.first_target_ver = mouse_y;
 	
 	//Create movement target
+	instance_destroy(obj_target);
 	instance_create_depth(first_target_hor, first_target_ver, 0, obj_target);
-	
 }
 
 //Go to the movement target
@@ -26,7 +26,6 @@ if (instance_exists(obj_target) && this.order_in_progress)
     {
         this.direction = point_direction(this.x, this.y, obj_target.x, obj_target.y);
         this.speed = 2;
-        this.unit_move = true;
     }
 }
 

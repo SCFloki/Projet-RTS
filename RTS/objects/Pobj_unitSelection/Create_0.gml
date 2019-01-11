@@ -14,4 +14,5 @@ first_target_ver = -1;
 
 //Get nearest object
 this_target = instance_nearest(x, y, obj_target);
+this_worker = instance_nearest(x, y, obj_worker);
 this = instance_nearest(x, y, Pobj_unitSelection);

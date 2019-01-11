@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "08aefffa-158e-45c1-907a-4ac3a09232a4",
+            "Value": {
+                "id": "a5624b17-873f-49b6-b554-64d4b53fbbf2",
+                "resourcePath": "views\\08aefffa-158e-45c1-907a-4ac3a09232a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11125ab1-9544-4701-bb9b-895e3cd18a88",
+            "Value": {
+                "id": "a39786fc-24ed-4b3b-a1fc-98a519740f86",
+                "resourcePath": "sprites\\gold\\gold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "143d1e6f-b135-456d-849a-6fff98abab45",
             "Value": {
                 "id": "bac703a2-9ec4-4fc8-a53f-cbac420f4963",
@@ -132,6 +148,14 @@
                 "id": "114cc9e6-9051-46ae-aed6-c8b26202f35c",
                 "resourcePath": "sprites\\Tile\\Tile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b037275-b845-40d8-a62e-49dd28d7af6a",
+            "Value": {
+                "id": "f26e807a-5fef-4a78-9e8b-f5949e5099c0",
+                "resourcePath": "views\\4b037275-b845-40d8-a62e-49dd28d7af6a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -396,6 +420,14 @@
                 "id": "a3f3c67e-0227-4eeb-a547-c0faeefd72d0",
                 "resourcePath": "tilesets\\tileset0\\tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f5cbfe0c-89dd-49b9-bcdc-88f0f7b3c1c9",
+            "Value": {
+                "id": "0781a3f1-c406-48cc-be4b-a7f25474af1e",
+                "resourcePath": "objects\\obj_goldMine\\obj_goldMine.yy",
+                "resourceType": "GMObject"
             }
         },
         {

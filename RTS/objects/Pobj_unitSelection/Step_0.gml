@@ -1,20 +1,42 @@
 scr_inputs();
-if (this.selected && rightPressed) {
-	this.unitMove = true;
-	instance_create_depth(mouse_x, mouse_y, 0, obj_target)
-	if has_a_target = false {
-	this_target = instance_nearest(x, y, obj_target)
-	has_a_target = true;
-	}
+
+//Create movement target
+if (selected && rightPressed)
+{
+	unit_move = true;
+	order_in_progress = true;
+	one_order = true;
+	
+	first_target_hor = mouse_x;
+	first_target_ver = mouse_y;
+	
+	var first_order_hor = mouse_x;
+	var first_order_ver = mouse_y;
+	
+	instance_create_depth(first_order_hor, first_order_ver, 0, obj_target);
+	
 }
 
-	if (this.unitMove == true) {
-	move_towards_point(this_target.x, this_target.y, 3);
-	
-	if (this.x == this_target.x && this.y == this_target.y) {
-		instance_destroy(this_target);
-		has_a_target = false;
-		this.speed = 0;
-		this.unitMove = false;
-	}
+if (selected && one_order && rightPressed)
+{
+	one_order = false;
+	more_order = true;
+}
+
+//Go to the movement target and adding the state order_in_progress 
+if (instance_exists(obj_target) && order_in_progress)
+{
+    if(!this.unitMove)
+    {
+        this.direction = point_direction(this.x, this.y, obj_target.x, obj_target.y);
+        this.speed = 2;
+        this.unitMove = true;
+    }
+}
+
+if (place_meeting(this.x, this.y, obj_target)) 
+{
+    this.speed = 0;
+    this.unitMove = false;
+	instance_destroy(obj_target);
 }

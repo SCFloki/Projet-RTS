@@ -1,2 +1,5 @@
+//State of building
 selected = false;
-getUnit = keyboard_check(ord("A"));
+
+//Get nearest object
+this_building = instance_nearest(x, y, Pobj_buildSelection);

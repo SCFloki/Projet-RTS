@@ -9,4 +9,7 @@ if (px != -1 && py != -1) {
 	draw_set_alpha(1);
 }
 
+draw_text(10, 20, px);
+draw_text(10, 40, py);
+
 draw_self();

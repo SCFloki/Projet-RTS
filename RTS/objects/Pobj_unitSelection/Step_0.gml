@@ -15,7 +15,7 @@ if (this.selected && rightPressed && !instance_exists(obj_target))
 	this.first_target_ver = mouse_y;
 	
 	//Create movement target
-	instance_create_depth(first_order_hor, first_order_ver, 0, obj_target);
+	instance_create_depth(first_target_hor, first_target_ver, 0, obj_target);
 	
 }
 
@@ -43,4 +43,10 @@ if (this.selected && this.one_order && rightPressed)
 {
 	this.one_order = false;
 	this.more_order = true;
+}
+
+//Reset order
+if (!instance_exists(obj_target) && order_in_progress)
+{
+	order_in_progress = false;
 }

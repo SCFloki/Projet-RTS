@@ -1,6 +1,6 @@
 //Mouse Control
 leftPressed = mouse_check_button_pressed(mb_left);
-leftReleased = mouse_check_button_released(mb_left);
+global.leftReleased = mouse_check_button_released(mb_left);
 leftClick = mouse_check_button(mb_left);
 
 rightPressed = mouse_check_button_pressed(mb_right);
@@ -17,3 +17,6 @@ cam_move_up = keyboard_check(vk_up);
 cam_move_down = keyboard_check(vk_down);
 cam_move_left = keyboard_check(vk_left);
 cam_move_right = keyboard_check(vk_right);
+
+//Building control
+getUnit = keyboard_check(ord("A"));

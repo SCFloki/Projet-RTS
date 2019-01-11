@@ -1,4 +1,5 @@
-//Select Unit
+/// @description Insérez la description ici
+// Vous pouvez écrire votre code dans cet éditeur
 scr_inputs();
 
 if (instance_exists(obj_mouse)) {

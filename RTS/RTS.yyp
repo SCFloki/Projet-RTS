@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "414127e6-abf9-4a6a-8287-15a6ee3a5553",
+            "Value": {
+                "id": "9a01bc03-e276-4a42-8b0a-d0a0d8ce3283",
+                "resourcePath": "sprites\\spr_worker_move\\spr_worker_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44889d8f-c06d-44b8-a66f-98223b9b9b06",
             "Value": {
                 "id": "114cc9e6-9051-46ae-aed6-c8b26202f35c",
@@ -268,6 +276,14 @@
                 "id": "4c281083-a1f1-498a-bb26-4989117b338a",
                 "resourcePath": "views\\760af998-22f3-42cf-a5b8-c0558815c91e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8c942588-45c7-4c12-8329-07587c9030ac",
+            "Value": {
+                "id": "8c6d6eb8-baf5-4c1f-9712-43fb19b90d43",
+                "resourcePath": "sprites\\spr_soldier_move\\spr_soldier_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

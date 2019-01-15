@@ -1,2 +1,3 @@
 event_inherited();
-hp = 100;
+maxHp = 100;
+hp = maxHp;

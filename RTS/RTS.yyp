@@ -122,7 +122,7 @@
             "Key": "2fc3de18-6798-4a33-a769-165843416eb4",
             "Value": {
                 "id": "6af7ce41-6a9a-46c6-8806-236ed1d81824",
-                "resourcePath": "sprites\\spr_barre_hp\\spr_barre_hp.yy",
+                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
                 "resourceType": "GMSprite"
             }
         },

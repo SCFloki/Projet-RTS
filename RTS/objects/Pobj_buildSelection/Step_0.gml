@@ -1,6 +1,6 @@
-scr_inputs();
+//scr_inputs();
 
 //Spawn unit
-scr_spawnUnit();
+//scr_spawnUnit();
 
 

@@ -1,4 +1,5 @@
 event_inherited();
+
 //Move animation
 if (unit_move)
 {

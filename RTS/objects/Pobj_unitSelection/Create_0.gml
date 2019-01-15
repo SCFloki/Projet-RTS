@@ -9,8 +9,18 @@ more_order = false;
 order_in_progress = false;
 
 //Target position
-first_target_hor = -1;
-first_target_ver = -1;
+show_target = false;
+count_target = 0;
+target_hor[0] = -1;
+target_hor[1] = -1;
+target_hor[2] = -1;
+target_hor[3] = -1;
+target_hor[4] = -1;
+target_ver[0] = -1;
+target_ver[1] = -1;
+target_ver[2] = -1;
+target_ver[3] = -1;
+target_ver[4] = -1;
 
 //Get nearest object
 this_target = instance_nearest(x, y, obj_target);

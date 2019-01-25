@@ -1,6 +1,6 @@
-draw_sprite(spr_button, 0, 17, 17);
-draw_sprite(spr_button, 0, 992, 17);
-draw_sprite(spr_button, 0, 17, 736);
-draw_sprite(spr_button, 0, 992, 736);
+draw_sprite(spr_button, 0, 20, 20);
+draw_sprite(spr_button, 0, 1570, 20);
+draw_sprite(spr_button, 0, 20, 870);
+draw_sprite(spr_button, 0, 1570, 870);
 
-draw_sprite(spr_test_hud, 0, 512, 768);
+draw_rectangle(camera_get_view_width(0)/1.5, camera_get_view_height(0) - 20, camera_get_view_width(0) - 20, camera_get_view_height(0)/1.5, 1);

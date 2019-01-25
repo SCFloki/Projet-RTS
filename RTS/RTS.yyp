@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "42a558de-9bc2-475f-a89d-409de25bd67f",
+            "Value": {
+                "id": "6b752b87-5721-4811-8631-a8b27f64e8e6",
+                "resourcePath": "sprites\\spr_worker\\spr_worker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44889d8f-c06d-44b8-a66f-98223b9b9b06",
             "Value": {
                 "id": "114cc9e6-9051-46ae-aed6-c8b26202f35c",
@@ -319,10 +327,10 @@
             }
         },
         {
-            "Key": "91f8848a-d769-4497-87ed-aa0c94b02371",
+            "Key": "92b4c513-e09c-4d4e-8480-357dad72375a",
             "Value": {
-                "id": "956c1a31-2de3-4b4f-9302-90a54f5b42c7",
-                "resourcePath": "sprites\\spr_buildg_selected\\spr_buildg_selected.yy",
+                "id": "a2178cab-aaf7-4b4c-a7c9-b8cd49d4b08c",
+                "resourcePath": "sprites\\spr_caserne\\spr_caserne.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -348,14 +356,6 @@
                 "id": "2e1bd4ca-492b-4e22-8d10-0b1b38454caf",
                 "resourcePath": "objects\\obj_soldier\\obj_soldier.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b0041530-db36-42f0-86b3-822481c55285",
-            "Value": {
-                "id": "84d2ffa0-31fc-442a-86cd-63d59d7a1599",
-                "resourcePath": "sprites\\spr_building\\spr_building.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -428,14 +428,6 @@
                 "id": "13b2fdbe-cdd7-45a0-9391-dcbced414e29",
                 "resourcePath": "scripts\\scr_selection\\scr_selection.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ee2f0a12-bcd8-486f-8554-f8883c9790f6",
-            "Value": {
-                "id": "f8468277-ee81-42fd-b824-a5476931e050",
-                "resourcePath": "sprites\\spr_worker\\spr_worker.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

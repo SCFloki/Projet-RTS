@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "649125c2-c924-4c4c-9ba9-b073916b5bcb",
     "children": [
-        "b0041530-db36-42f0-86b3-822481c55285",
-        "91f8848a-d769-4497-87ed-aa0c94b02371"
+        "11125ab1-9544-4701-bb9b-895e3cd18a88",
+        "92b4c513-e09c-4d4e-8480-357dad72375a"
     ],
     "filterType": "GMSprite",
     "folderName": "Buildings",

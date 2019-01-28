@@ -16,13 +16,20 @@ if (unit_move) speed = 1.5;
 else speed = 0;
 
 //Attacks
-if point_distance(x, y, Pobj_unitSelection.x, Pobj_unitSelection.y) < 20 
+if (instance_exists(Pobj_unitSelection)) && (point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 20)
 {
-	this_worker.hp -= 1.25;
+	kill_target = true;	
 }
 
-//Interactions
-if hp = 0 instance_destroy(this);
+if this_PobjUnit.hp <= 0
+{
+kill_target = false;
+}
+if kill_target
+{
+	this_PobjUnit.hp -= 1.25;
+}
+
 
 
 

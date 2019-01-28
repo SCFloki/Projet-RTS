@@ -62,3 +62,6 @@ if (!instance_exists(obj_target) && order_in_progress)
 {
 	order_in_progress = false;
 }
+
+//Interactions
+if hp <= 0 instance_destroy(this);

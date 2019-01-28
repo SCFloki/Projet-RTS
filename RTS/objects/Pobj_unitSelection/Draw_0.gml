@@ -7,9 +7,6 @@ if this.selected && this.order_in_progress && this.count_target != -1
 	draw_sprite(spr_target, 0, this.target_hor[this.count_target],  this.target_ver[this.count_target])
 }
 
-draw_text(100, 50, obj_soldier.count_target);
-draw_text(100, 75, obj_worker.count_target);
-
 draw_self();
 
 //Draw healthbar

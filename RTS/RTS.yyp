@@ -226,7 +226,7 @@
             "Key": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
             "Value": {
                 "id": "8a0a6818-d4da-4162-9822-a09f4e62dc80",
-                "resourcePath": "objects\\Pobj_unitSelection\\Pobj_unitSelection.yy",
+                "resourcePath": "objects\\Pobj_allyUnit\\Pobj_allyUnit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -484,6 +484,14 @@
                 "id": "e4bd7c3e-6a47-4bef-8b63-df305ecb8f2d",
                 "resourcePath": "views\\fa4cc211-6576-409d-b3de-8ba3f92a4a8b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd7f127d-17d7-4fba-a815-90f87a0901fb",
+            "Value": {
+                "id": "15b13fe9-7aa8-466d-bf8b-bb588ce614c1",
+                "resourcePath": "objects\\obj_minimap\\obj_minimap.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

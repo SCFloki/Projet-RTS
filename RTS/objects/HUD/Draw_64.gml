@@ -1,1 +1,1 @@
-draw_rectangle(camera_get_view_width(0)/1.5, camera_get_view_height(0) - 20, camera_get_view_width(0) - 20, camera_get_view_height(0)/1.5, 1);
+//draw_rectangle(camera_get_view_width(0)/1.5, camera_get_view_height(0) - 20, camera_get_view_width(0) - 20, camera_get_view_height(0)/1.5, 1);

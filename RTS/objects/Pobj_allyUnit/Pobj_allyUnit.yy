@@ -2,7 +2,7 @@
     "id": "5ca89597-31ca-4cb0-8992-8af85fbd5860",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Pobj_unitSelection",
+    "name": "Pobj_allyUnit",
     "eventList": [
         {
             "id": "27a741ff-3e19-4782-b8b6-5d046dfc13b5",

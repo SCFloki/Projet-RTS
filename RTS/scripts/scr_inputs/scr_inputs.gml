@@ -9,7 +9,8 @@ rightClick = mouse_check_button(mb_right);
 
 //Order Control
 patrol = keyboard_check_pressed(ord("P"));
-appear = keyboard_check_pressed(ord("T"));
+appearS = keyboard_check_pressed(ord("T"));
+appearW = keyboard_check_pressed(ord("W"));
 
 
 //Cam move

@@ -1,11 +1,17 @@
+//Var
+var this = instance_nearest(x, y, obj_enemy);
+var this_PobjUnit = instance_nearest(x, y, Pobj_allyUnit);
+var this_worker = instance_nearest(x, y, obj_worker);
+var this_soldier = instance_nearest(x, y, obj_soldier);
+
 //Move animation
 if (unit_move) sprite_index = spr_enemy_move;
 else sprite_index = spr_enemy;
 
 //Move toward
-if point_distance(x, y, Pobj_unitSelection.x, Pobj_unitSelection.y) < 200 
+if point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 200 
 {
-	move_towards_point(Pobj_unitSelection.x, Pobj_unitSelection.y, 1.5)
+	move_towards_point(this_PobjUnit.x, this_PobjUnit.y, 1.5)
 	unit_move = true;
 }
 else unit_move = false;
@@ -16,19 +22,13 @@ if (unit_move) speed = 1.5;
 else speed = 0;
 
 //Attacks
-if (instance_exists(Pobj_unitSelection)) && (point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 20)
+if instance_exists(Pobj_allyUnit) && (point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 20)
 {
-	kill_target = true;	
+	this_PobjUnit.hp -= 2;
 }
+//Death
+if hp <= 0 instance_destroy(this);
 
-if this_PobjUnit.hp <= 0
-{
-kill_target = false;
-}
-if kill_target
-{
-	this_PobjUnit.hp -= 1.25;
-}
 
 
 

@@ -6,6 +6,9 @@ this_worker = instance_nearest(x, y, obj_worker);
 this_soldier = instance_nearest(x, y, obj_soldier);*/
 kill_target = false;
 
+as_timerDecrease = 60;
+
+
 //Stats
 maxHp = 100;
 hp = maxHp;

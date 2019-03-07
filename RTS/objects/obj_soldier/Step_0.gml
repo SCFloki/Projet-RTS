@@ -17,10 +17,17 @@ else
 }
 
 //Attacks
-if instance_exists(this_enemy) && (point_distance(x, y, this_enemy.x, this_enemy.y) < 20)
+//Attacks
+if (instance_exists(obj_enemy) && point_distance(x, y, this_enemy.x, this_enemy.y) < 20)
 {
-	this_enemy.hp -= 2.00;
+	if (as_timerDecrease = 0)
+	{
+		this_enemy.hp -= 20;
+		as_timerDecrease = 60;
+	}
 }
+
+if (as_timerDecrease != 0) as_timerDecrease --;
 
 //Death
 if hp <= 0 instance_destroy(this);

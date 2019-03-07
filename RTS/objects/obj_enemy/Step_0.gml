@@ -9,7 +9,7 @@ if (unit_move) sprite_index = spr_enemy_move;
 else sprite_index = spr_enemy;
 
 //Move toward
-if point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 200 
+if instance_exists(Pobj_allyUnit) && point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 200 
 {
 	move_towards_point(this_PobjUnit.x, this_PobjUnit.y, 1.5)
 	unit_move = true;
@@ -22,10 +22,17 @@ if (unit_move) speed = 1.5;
 else speed = 0;
 
 //Attacks
-if instance_exists(Pobj_allyUnit) && (point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 20)
+if instance_exists(Pobj_allyUnit) && point_distance(x, y, this_PobjUnit.x, this_PobjUnit.y) < 20
 {
-	this_PobjUnit.hp -= 2;
+	if (as_timerDecrease = 0)
+	{
+		this_PobjUnit.hp -= 20;
+		as_timerDecrease = 60;
+	}
 }
+
+if (as_timerDecrease != 0) as_timerDecrease --;
+
 //Death
 if hp <= 0 instance_destroy(this);
 
